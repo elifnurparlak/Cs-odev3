@@ -1,0 +1,206 @@
+.header {
+  list-style-type: none;
+  margin: 10px;
+  overflow: hidden;
+  margin-right: 16px;
+  font-family: arial,sans-serif;
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;    /* alt alta dizer */
+  align-items: flex-end;  
+}
+
+.headerli a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 5px 5px;
+  text-decoration: none;
+}
+
+.headerli a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  text-align: center;
+  margin: 100px;
+}
+
+.search-area {
+  background: #fff;
+  display: flex;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  z-index: 3;
+  height: 44px;
+  margin: 0 auto;
+  margin-top: -77px;
+  width: 582px;
+}
+
+.search-area:hover {
+box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  width: 580px;
+  margin: 20px auto;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  padding: 5px 10px;
+  background: #fff;
+}
+
+.search-img {
+  display: flex;
+  align-items: center;
+  padding-right: 13px;
+  margin-top: -5px;
+}
+
+.search-img span {
+   display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  fill: #9aa0a6;
+}
+
+.input-enter {
+  
+  flex: 1;
+  
+}
+
+.input-area {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.input {
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.87);
+  word-wrap: break-word;
+  outline: none;
+  display: flex;
+  flex: 100%;
+  margin-top: -68px;
+  font: 16px arial, sans-serif;
+  line-height: 34px;
+  height: 34px !important;
+  text-rendering: auto;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  text-align: start;
+  appearance: textfield;
+  cursor: text;
+}
+
+.googlesearch {
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.feelinglucky {
+  padding: 0 16px;
+  line-height: 27px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.footer {
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #dfe1e5;
+  border-top: 1px solid #dadce0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin-left: -8px;
+  line-height: 10px;
+  list-style-type: none; 
+}
+
+.footerli {
+  float: left;
+}
+
+.footerli a {
+  display: block;
+  color: #70757a;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin-left: 14px;
+  margin-right: -20px;
+}
+
+.footerli a:hover {
+  text-decoration: underline;
+}
+
+.input-area input {
+  width: 480px;      /* genişlik */
+  border: none;      /* kenarlık yok */
+  outline: none;     /* tıklayınca mavi çerçeve de olmasın */
+  font-size: 16px;
+  padding: 8px;
+}
+
+.input-area svg {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  fill: #555;
+  transition: fill 0.3s ease;
+}
+
+.input-area svg:hover {
+  fill: #000;
+}
+.buttons {
+  display: flex;
+  justify-content: center; /* ortaya al */
+  margin-top: 20px;        /* üstten boşluk */
+  margin-right: 20px;      /* sağdan boşluk */
+  gap: 8px;                /* butonlar arası boşluk */
+}
+
+.googlesearch,
+.feelinglucky {
+  height: 36px;                    /* yükseklik */
+  border: 1px solid #f2f2f2;       /* kenar */
+  font-family: Arial, sans-serif;  /* yazı tipi */
+  color: #5f6368;                  /* yazı rengi */
+  font-size: 14px;                 /* yazı boyutu */
+  padding: 0 16px;                 /* yatay boşluk */
+  background: #f8f9fa;             /* arkaplan (isteğe bağlı, Google'daki gibi) */
+  border-radius: 4px;              /* hafif yuvarlatma (isteğe bağlı) */
+  cursor: pointer;
+   box-shadow: 0 1px 1px rgba(14, 14, 14, 0.989); /* hafif gölge */
+}
+
+.googlesearch:hover,
+.feelinglucky:hover {
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
